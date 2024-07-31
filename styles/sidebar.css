@@ -1,0 +1,31 @@
+.sidebar{
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    position: fixed;
+    left: 12px;
+    bottom: 0;
+    top: 55px;
+    width: 72px;
+    height: 500px;
+    /* margin-left: 10px; */
+    background-color: rgb(255, 255, 255);
+}
+.sidebar>button{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    width: 35px;
+    background-color: white;
+}
+
+.home-icon{
+    width: 23px;
+}
+
+.text{
+    font-family: Roboto, Arial;
+    font-size: 10px;
+}

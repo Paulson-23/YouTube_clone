@@ -4,13 +4,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>YouTube</title>
-  <!-- <link rel-"stylesheet" href="style.css"> -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles/video.css">
   <link rel="stylesheet" href="styles/header.css">
   <link rel="stylesheet" href="styles/general.css">
+  <link rel="stylesheet" href="styles/sidebar.css">
 </head>
 <body>
   <div class="header">
@@ -30,14 +30,62 @@
     <div class="right-section">
       <img class="upload-icon" src="images/header_images/upload.svg">
       <img class="youtube-apps-icon" src="images/header_images/youtube-apps.svg">
-      <img class="notifications-icon" src="images/header_images/notifications.svg">
+      <div class="notifications-button">
+        <div class="notifications-count">
+          3
+        </div>
+        <img class="notifications-icon" src="images/header_images/notifications.svg">
+      </div>
       <img class="user-icon" src="images/header_images/my-channel-icon.jpg">
     </div>
+  </div>
+  <div class="sidebar">
+    <button class="home-button">
+      <div class="home-icon">
+        <img src="images/sidebar_images/home-icon.svg">
+      </div>
+      <div class="text">
+        Home
+      </div>
+    </button>
+    <button class="explore-button">
+      <img class="explorer-icon" src="images/sidebar_images/explore-icon.svg">
+      <div class="text">
+        Explore
+      </div>
+    </button>
+    <button class="subscriptions-button">
+      <img class="subscriptions-icon" src="images/sidebar_images/subscriptions-icon.svg">
+      <div class="text">
+        Subscriptions
+      </div>
+    </button>
+    <button class="originals-button">
+      <img class="originals-icon" src="images/sidebar_images/originals-icon.svg">
+      <div class="text">
+        Originals
+      </div>
+    </button>
+    <button class="youtube-music-button">
+      <img class="youtube-music-icon" src="images/sidebar_images/youtube-music-icon.svg">
+      <div class="text">
+        YouTube Music
+      </div>
+    </button>
+    <button class="library-button">
+      <img class="library-icon" src="images/sidebar_images/library-icon.svg">
+      <div class="text">
+        Library
+      </div>
+    </button>
   </div>
   <div class="video-grid">
     <div class="video-div">
       <div class="image-container">
-        <img class="image" src="images/thumbnail-1.webp">
+        <div class="video-time">
+          14:20
+        </div>
+        <img class="image" src="images/thumbnails/thumbnail-1.webp">
       </div>
       <div class="video-info">
         <div class="channel_icon-div">
@@ -60,7 +108,10 @@
     </div>
     <div class="video-div">
       <div class="image-container">
-        <img class="image" src="images/thumbnail-2.webp">
+        <div class="video-time">
+          8:22
+        </div>
+        <img class="image" src="images/thumbnails/thumbnail-2.webp">
       </div>
       <div class="video-info">
         <div class="channel_icon-div">
@@ -83,7 +134,10 @@
     </div>
     <div class="video-div">
       <div class="image-container">
-        <img class="image" src="images/thumbnail-3.webp">
+        <div class="video-time">
+          23:57
+        </div>
+        <img class="image" src="images/thumbnails/thumbnail-3.webp">
       </div>
       <div class="video-info">
         <div class="channel_icon-div">
@@ -106,7 +160,10 @@
     </div>
     <div class="video-div">
       <div class="image-container">
-        <img class="image" src="images/thumbnail-4.webp">
+        <div class="video-time">
+          9:53
+        </div>
+        <img class="image" src="images/thumbnails/thumbnail-4.webp">
       </div>
       <div class="video-info">
         <div class="channel_icon-div">
@@ -129,7 +186,10 @@
     </div>
     <div class="video-div">
       <div class="image-container">
-        <img class="image" src="images/thumbnail-5.webp">
+        <div class="video-time">
+          11:21
+        </div>
+        <img class="image" src="images/thumbnails/thumbnail-5.webp">
       </div>
       <div class="video-info">
         <div class="channel_icon-div">
@@ -152,7 +212,10 @@
     </div>
     <div class="video-div">
       <div class="image-container">
-        <img class="image" src="images/thumbnail-6.webp">
+        <div class="video-time">
+          11:59
+        </div>
+        <img class="image" src="images/thumbnails/thumbnail-6.webp">
       </div>
       <div class="video-info">
         <div class="channel_icon-div">
